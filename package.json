@@ -1,12 +1,17 @@
 {
-  "name": "bases",
+  "name": "liquidacion-salarial",
   "version": "1.0.0",
-  "description": "",
+  "description": "Calculadora de liquidación salarial mensual por consola",
   "main": "app.js",
   "scripts": {
-    "dev": "node app.js"
+    "start": "node app.js",
+    "dev": "node app.js",
+    "test": "node --test"
   },
-  "keywords": [],
+  "keywords": [
+    "salarios",
+    "liquidacion"
+  ],
   "type": "module",
   "dependencies": {
     "prompt-sync": "^4.2.0"
