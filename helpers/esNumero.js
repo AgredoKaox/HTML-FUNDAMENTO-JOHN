@@ -1,0 +1,1 @@
+export const esNumero = a => (typeof a == "number") ? true : false ; 
