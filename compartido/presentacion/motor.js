@@ -12,7 +12,7 @@ export function imprimirLiquidacion(liquidacion) {
   console.log("Descuento por faltas:", formatoPesos.format(liquidacion.descuentoPorFaltas));
   console.log("Descuento por dominicales:", formatoPesos.format(liquidacion.descuentoPorDominicales));
   console.log("Descuentos:", formatoPesos.format(liquidacion.descuentos));
-  console.log("Adicionales:", formatoPesos.format(liquidacion.adicionales));
+  console.log("Adicionales por horas Extras:", formatoPesos.format(liquidacion.adicionales));
   console.log("Total a Pagar:", formatoPesos.format(liquidacion.totalAPagar));
   const filas = liquidacion.semanas.map((semana) => ({
     Lunes: semana.lunes,
